@@ -1,0 +1,35 @@
+{
+  "name": "rollup-leaflet-example",
+  "version": "0.0.1",
+  "description": "Using Rollup to bundle Leaflet and plugins as an ES module.",
+  "scripts": {
+    "prepublishOnly": "rollup -c"
+  },
+  "files": [
+    "dist/**/*.js",
+    "src/**/*.js"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.2.2",
+    "leaflet": "^1.8.0",
+    "leaflet-fullscreen": "^1.0.2",
+    "leaflet-timedimension": "^1.1.1",
+    "leaflet.control.resizer": "^0.0.1",
+    "leaflet.sync": "^0.2.4",
+    "rollup": "^2.71.1",
+    "rollup-plugin-styles": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://github.com/mbostock/rollup-leaflet-example"
+  },
+  "license": "ISC",
+  "keywords": [
+    "rollup",
+    "leaflet"
+  ]
+}
